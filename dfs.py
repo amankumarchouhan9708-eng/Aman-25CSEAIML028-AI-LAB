@@ -21,7 +21,6 @@ students_graph = {}
 num_edges = int(input("how many edges (connections) does the graph have? "))
 
 print("enter the edges separated by space (e.g., A B):")
-
 for i in range(num_edges):
     u, v = input(f"edge {i + 1}: ").split()
     if u not in students_graph:
